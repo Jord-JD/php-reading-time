@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\ReadingTime;
+namespace JordJD\ReadingTime;
 
 class ReadingTime
 {

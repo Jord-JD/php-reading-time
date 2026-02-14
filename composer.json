@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "DivineOmega\\ReadingTime\\": "./src/"
+      "JordJD\\ReadingTime\\": "./src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "DivineOmega\\ReadingTime\\Tests\\": "./tests/Unit/"
+      "JordJD\\ReadingTime\\Tests\\": "./tests/Unit/"
     }
   },
   "replace": {
@@ -31,7 +31,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "3.0-dev"
     }
   }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace DivineOmega\ReadingTime\Tests;
+namespace JordJD\ReadingTime\Tests;
 
-use DivineOmega\ReadingTime\ReadingTime;
+use JordJD\ReadingTime\ReadingTime;
 use PHPUnit\Framework\TestCase;
 
 class ReadingTimeTest extends TestCase
