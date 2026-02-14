@@ -1,29 +1,37 @@
 {
-    "name": "divineomega/php-reading-time",
-    "description": "Calculates reading time for text",
-    "type": "library",
-    "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "require": {
-        "php": ">=7.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.0 || ^8.0",
-        "php-coveralls/php-coveralls": "^2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\ReadingTime\\": "./src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "DivineOmega\\ReadingTime\\Tests\\": "./tests/Unit/"
-        }
+  "name": "jord-jd/php-reading-time",
+  "description": "Calculates reading time for text",
+  "type": "library",
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
     }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0 || ^8.0",
+    "php-coveralls/php-coveralls": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\ReadingTime\\": "./src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DivineOmega\\ReadingTime\\Tests\\": "./tests/Unit/"
+    }
+  },
+  "replace": {
+    "divineomega/php-reading-time": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
 }
