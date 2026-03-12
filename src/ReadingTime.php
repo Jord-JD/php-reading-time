@@ -7,24 +7,24 @@ class ReadingTime
     private $content;
     private $wordsPerMinute = 200;
 
-    public function __construct($content)
+    public function __construct(string $content)
     {
         $this->content = $content;
     }
 
-    public function setWordsPerMinute($wordsPerMinute)
+    public function setWordsPerMinute(int $wordsPerMinute): self
     {
         $this->wordsPerMinute = $wordsPerMinute;
 
         return $this;
     }
 
-    public function minutes()
+    public function minutes(): float
     {
         return str_word_count($this->content) / $this->wordsPerMinute;
     }
 
-    public function seconds()
+    public function seconds(): float
     {
         return $this->minutes() * 60;
     }
