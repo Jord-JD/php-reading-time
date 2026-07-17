@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/Jord-JD/php-reading-time.svg?branch=master)](https://travis-ci.org/Jord-JD/php-reading-time)
 [![Coverage Status](https://coveralls.io/repos/github/Jord-JD/php-reading-time/badge.svg?branch=master)](https://coveralls.io/github/Jord-JD/php-reading-time?branch=master)
-[![StyleCI](https://styleci.io/repos/128542116/shield?branch=master)](https://styleci.io/repos/128542116)
 
 This PHP library lets you easily calculate the reading time for a piece of text.
 
